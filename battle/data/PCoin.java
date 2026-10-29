@@ -302,7 +302,7 @@ public class PCoin extends Data {
 						tar.set(0, 100 - tar.get(0));
 					else if (type[1] == P_WEAK)
 						tar.set(2, 100 - tar.get(2));
-					else if (type[1] == P_BOUNTY)
+					else if (type[1] == P_BOUNTY) // todo: Bounty and base destroyer do not work when applied as talents.
 						tar.set(0, 100);
 					else if (type[1] == P_ATKBASE)
 						tar.set(0, 300);
